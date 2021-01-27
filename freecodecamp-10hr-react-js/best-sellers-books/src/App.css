@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.list-header {
+  background: radial-gradient(#0a99af, #057586);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 140px;
+  color: whitesmoke;
+}
+
+.list-header h1 {
+  font-size: 50px;
+}
+
+.bookgrid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid whitesmoke;
+  width: 300px;
+  padding-bottom: 20px;
+}
+
+.book-container-header {
+  height: 30px;
+  display: flex;
+}
+
+.book-container-header svg {
+  height: 30px;
+  width: 45px;
+}
+
+.book-place {
+  fill: chocolate;
+}
+
+.book-container-header p {
+  position: relative;
+  top: 3px;
+  left: -40px;
+  color: white;
+  font-size: 13px;
+}
+
+.bookcover-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-container-title {
+  font-size: 13px;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.book-container-author-list {
+  font-size: 13px;
+}
+
+.book-container-author-list a {
+  text-decoration: none;
+}
+
+.book-container-print {
+  font-size: 13px;
+  color: gray;
+}
+
+.book-container-price {
+  font-size: 15px;
+  color: brown;
+}
