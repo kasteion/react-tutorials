@@ -1,0 +1,122 @@
+:root {
+  --clr-primary-5: #49a6e9;
+  --clr-primary-10: #ebf7ff;
+  --clr-gray-1: #102a42;
+  --clr-gray-5: #617d98;
+  --clr-gray-8: #bcccdc;
+  --clr-gray-10: #f1f5f8;
+  --clr-red-dark: #bb2525;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--clr-gray-10);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+main {
+  padding: 80px 0px 80px 0px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title h1 {
+  text-align: center;
+  color: var(--clr-gray-1);
+  font-size: 2.5rem;
+  margin-bottom: 0.35rem;
+}
+
+.underline {
+  background-color: var(--clr-primary-5);
+  width: 6rem;
+  height: 0.35rem;
+}
+
+.tour-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tour-container article {
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 5px 15px var(--clr-gray-8);
+}
+
+.tour-card {
+  width: 40rem;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.tour-card img {
+  height: 21rem;
+  width: 40rem;
+  object-fit: cover;
+}
+
+.tour-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tour-name {
+  padding: 0 2rem 0 2rem;
+  color: var(--clr-gray-1);
+}
+
+.tour-price {
+  margin: 0 2rem 0 2rem;
+  color: var(--clr-primary-5);
+  background-color: var(--clr-primary-10);
+  padding: 0.2rem;
+}
+
+.tour-card p {
+  padding: 0 2rem 0 2rem;
+  color: var(--clr-gray-5);
+}
+
+.tour-card a {
+  color: var(--clr-primary-5);
+}
+
+.tour-card a:hover {
+  cursor: pointer;
+}
+
+.tour-card-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.tour-card-button-container button {
+  margin: 0 2rem 2rem 2rem;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid var(--clr-red-dark);
+  color: var(--clr-red-dark);
+  font-size: 1rem;
+  padding: 0.35rem 2rem 0.35rem 2rem;
+}
+
+.tour-card-button-container button:hover {
+  cursor: pointer;
+}
